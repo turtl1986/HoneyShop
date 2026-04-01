@@ -1,98 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Натуральный мёд с пасеки из экологически чистых районов. Без добавок и перегрева, сохраняет природный вкус и полезные свойства. Качественный мёд напрямую от производителя.">
-  <meta name="keywords" content="мёд, мед, мёт,мет, пчелы, пасека">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Натуральный мёд с пасеки из экологически чистых районов. Без добавок и перегрева, сохраняет природный вкус и полезные свойства. Качественный мёд напрямую от производителя.">
+    <meta name="keywords" content="мёд, мед, мёт,мет, пчелы, пасека">
 
-  <link rel="icon" href="./public/img/logo.jpg" sizes="any">
-  <link rel="icon" type="image/png" href="./public/img/logo.jpg">
-  <link rel="apple-touch-icon" href="./public/img/logo.jpg">
-  <title>Магазин мёда</title>
+    <link rel="icon" href="./public/img/logo.png" sizes="any">
+    <link rel="icon" type="image/png" href="./public/img/logo.png">
+    <link rel="apple-touch-icon" href="./public/img/logo.png">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <title>Магазин мёда</title>
 
 </head>
 <body>
-<header class="header">
-  <nav class="header-menu">
-    <ul class="header-menu-list">
-      <li class="header-menu-item header-menu-item--logo">
-        <a href="#">
-          <img style="width: 20px; height: 20px;" alt="Логотип магазина мёда" src="./public/img/logo.jpg">
-        </a></li>
-      <li class="header-menu-item"><a href="#">О нас</a></li>
-      <li class="header-menu-item"><a href="#">Продукты</a></li>
-      <li class="header-menu-item"><a href="#">Контакты</a></li>
-    </ul>
-  </nav>
-</header>
-<main class="main">
-  <section class="important">
-    <h1 class="important__container--info-heading">Натуральный мёд прямо с пасеки 🍯</h1>
-    <div class="important__container important__container--info">
-      <p class="important__container--info-text">100% органический продукт без добавок</p>
-      <button class="important__container--info-button" type="button">Заказать</button>
-    </div>
-    <img style="width: 200px; height: 200px;" class="important__container important__container--img" src="./public/img/apiary.jpg"
-         alt="Фото пасеки магазина">
-  </section>
-  <section class="hero">
-    <h2 class="hero-heading">О нас</h2>
-    <p class="hero-text">
-      Наш мёд - это результат заботы о природе и уважения к традициям пчеловодства. Мы собираем его в экологически чистых районах, где пчёлы питаются нектаром диких цветов и растений, вдали от городского шума и загрязнений.
-      Каждая капля мёда проходит минимальную обработку, чтобы сохранить его природный вкус, аромат и полезные свойства. Мы не используем добавок и не подвергаем мёд перегреву — именно поэтому он остаётся таким, каким его создала природа: натуральным, насыщенным и по-настоящему качественным.
-      Мы уверены в своём продукте и делимся с вами только тем мёдом, который с удовольствием выбираем для себя и своих близких.
-    </p>
-  </section>
-  <section class="product">
-    <h2 class="product-heading">Продукты</h2>
-    <div class="product-items">
-      <div class="product-item">
-        <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
-             alt="Банка липового мёда">
-        <p class="product-item--name">Липовый мёд</p>
-        <button type="button">Заказать</button>
-      </div>
-      <div class="product-item">
-        <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
-             alt="Банка цветочного мёда">
-        <p class="product-item--name">Цветочный мёд</p>
-        <button type="button">Заказать</button>
-      </div>
-      <div class="product-item">
-        <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
-             alt="Банка речного мёда">
-        <p class="product-item--name">Речной мёд</p>
-        <button type="button">Заказать</button>
-      </div>
-    </div>
-  </section>
-  <section class="form">
-    <form>
-      <label for="name_order">Ваше имя</label>
-      <input id="name_order"  type="text" name="name_order" required>
-      <label for="phone">Ваш номер телефона</label>
-      <input id="phone" type="tel" name="phone" required>
-      <label for="comment">Комментарий</label>
-      <textarea id="comment" name="comment" rows="5" cols="33" autocomplete="off"></textarea>
-      <button type="submit">Заказать</button>
-    </form>
-  </section>
-</main>
-<footer>
-  <section class="footer">
-    <h2 class="footer-heading">Контакты</h2>
-    <div class="footer-info">
-      <h3 class="footer-info-heading">Телефон:</h3>
-      <a href="tel:+7XXXXXXXXXX" class="footer-info-text">
-        +7 (XXX) XXX-XX-XX
-      </a>
-    </div>
-    <div class="footer-info">
-      <h3 class="footer-info-heading">Почта:</h3>
-      <p class="footer-info-text">info@yourhoney.ru</p>
-    </div>
-  </section>
-</footer>
+<div class="case">
+    <header class="header">
+        <nav class="header-menu">
+            <a href="#">
+                <img class="header-menu-logo" alt="Логотип магазина мёда" src="./public/img/logo.png">
+            </a>
+            <ul class="header-menu-list">
+                <li class="header-menu-item"><a href="#hero">О нас</a></li>
+                <li class="header-menu-item"><a href="#product">Продукты</a></li>
+                <li class="header-menu-item"><a href="#footer">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="important">
+            <div class="important__container important__container--info">
+                <h1 class="info-heading">Натуральный мёд прямо с пасеки</h1>
+                <p class="info-text">100% органический продукт без добавок. Наш мёд собирается в экологически чистых районах, где пчёлы питаются нектаром диких цветов и луговых трав.
+                  Мы бережно относимся к каждой стадии производства, не перегреваем мёд и не добавляем искусственных компонентов, чтобы сохранить его натуральный вкус, аромат и полезные свойства.
+                  Это продукт, созданный природой и заботливо доставленный прямо к вашему столу.</p>
+                <a class="info-link" href="#form">Оставить заявку</a>
+            </div>
+            <img class="important__container important__container--img"
+                 src="./public/img/apiary.jpg"
+                 alt="Фото пасеки магазина">
+        </section>
+        <section class="hero" id="hero">
+            <h2 class="info-heading">О нас</h2>
+            <p class="info-text">
+                Наш мёд - это результат заботы о природе и уважения к традициям пчеловодства. Мы собираем его в
+                экологически чистых районах, где пчёлы питаются нектаром диких цветов и растений, вдали от городского
+                шума и загрязнений.
+                Каждая капля мёда проходит минимальную обработку, чтобы сохранить его природный вкус, аромат и полезные
+                свойства. Мы не используем добавок и не подвергаем мёд перегреву — именно поэтому он остаётся таким,
+                каким его создала природа: натуральным, насыщенным и по-настоящему качественным.
+                Мы уверены в своём продукте и делимся с вами только тем мёдом, который с удовольствием выбираем для себя
+                и своих близких.
+            </p>
+        </section>
+        <section class="product" id="product">
+            <h2 class="info-heading info-heading--center">Продукты</h2>
+            <div class="product-items">
+                <article class="product-item">
+                    <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
+                         alt="Банка липового мёда">
+                    <p class="product-item--name">Липовый мёд</p>
+                  <a class="header-menu-item" href="#form">Оставить заявку</a>
+                </article>
+                <article class="product-item">
+                    <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
+                         alt="Банка цветочного мёда">
+                    <p class="product-item--name">Цветочный мёд</p>
+                  <a class="header-menu-item" href="#form">Оставить заявку</a>
+                </article>
+                <article class="product-item">
+                    <img style="width: 200px; height: 200px;" class="product-item--img" src="./public/img/honey_img.jpg"
+                         alt="Банка речного мёда">
+                    <p class="product-item--name">Речной мёд</p>
+                  <a class="header-menu-item" href="#form">Оставить заявку</a>
+                </article>
+            </div>
+        </section>
+        <section class="form" id="form">
+          <h2 class="info-heading info-heading--center">Форма заявки</h2>
+            <form class="form-cover">
+                <label for="name_order">Ваше имя</label>
+                <input id="name_order" type="text" name="name_order" required>
+                <label for="phone">Ваш номер телефона</label>
+                <input id="phone" type="tel" name="phone" required>
+                <label for="comment">Комментарий</label>
+                <textarea id="comment" name="comment" rows="5" cols="33" autocomplete="off"></textarea>
+                <button class="info-link info-link--center" type="submit">Заказать</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="footer" id="footer">
+            <h2 class="info-heading">Контакты</h2>
+            <div class="contacts-cover">
+                <h3 class="contacts-heading">Телефон:</h3>
+                <a href="tel:+7XXXXXXXXXX" class="contacts-text">
+                    +7 (XXX) XXX-XX-XX
+                </a>
+            </div>
+            <div class="contacts-cover">
+                <h3 class="contacts-heading">Почта:</h3>
+                <p class="contacts-text">info@yourhoney.ru</p>
+            </div>
+        </section>
+    </footer>
+</div>
+
 </body>
 </html>
